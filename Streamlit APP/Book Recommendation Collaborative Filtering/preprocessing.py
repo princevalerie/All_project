@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1zIMZikCK828A9jqiHWv7NCq_mJE9blbG
 """
 
-# prompt: ekstrak/content/drive/MyDrive/intern_file/BX-Book-Ratings.csv
 
 import pandas as pd
 
@@ -109,7 +108,6 @@ from scipy.sparse import csr_matrix
 book_sparse=csr_matrix(book_pivot)
 book_sparse
 
-# prompt: distance,suggestion=model.kneighbors(book_pivot.iloc[237,:].values.reshape(1,-1),n_neighbors=6)
 
 from sklearn.neighbors import NearestNeighbors
 
